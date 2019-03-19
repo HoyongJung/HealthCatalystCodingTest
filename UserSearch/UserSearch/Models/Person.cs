@@ -7,17 +7,17 @@ using System.Web;
 
 namespace UserSearch.Models
 {
-    [Table("Users")]
-    public class Users
+    [Table("Person")]
+    public class Person
     {
         [Key]
-        public int userID { get; set; }
+        public int PersonID { get; set; }
 
         public string firstname { get; set; }
 
         public string lastname { get; set; }
 
-        public string streetAddress { get; set; }
+        public string address { get; set; }
 
         public int age { get; set; }
 
